@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{27B1DC20-7835-45A3-9691-B3CF5FB73E7E}</ProjectGuid>
+    <RootNamespace>Controller4</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Play\LEADTOOLS 15\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>c:\GENAPP\Controller4.exe</OutputFile>
+      <HeapReserveSize>200000000</HeapReserveSize>
+      <HeapCommitSize>200000000</HeapCommitSize>
+      <UACExecutionLevel>HighestAvailable</UACExecutionLevel>
+      <AdditionalDependencies>Iphlpapi.lib</AdditionalDependencies>
+      <UACUIAccess>true</UACUIAccess>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Play\LEADTOOLS 15\Include;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>c:\GENAPP\Controller4.exe</OutputFile>
+      <HeapReserveSize>200000000</HeapReserveSize>
+      <HeapCommitSize>200000000</HeapCommitSize>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <UACUIAccess>true</UACUIAccess>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>Iphlpapi.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\background_1.bmp" />
+    <None Include="res\background_jobs.bmp" />
+    <None Include="res\background_printing.bmp" />
+    <None Include="res\background_tools.bmp" />
+    <None Include="res\background_tools_dualcmyk.bmp" />
+    <None Include="res\BIGFROG_1.bmp" />
+    <None Include="res\bin00001.bin" />
+    <None Include="res\bin00002.bin" />
+    <None Include="res\bin00003.bin" />
+    <None Include="res\bin00004.bin" />
+    <None Include="res\bin00005.bin" />
+    <None Include="res\bin00006.bin" />
+    <None Include="res\bin00007.bin" />
+    <None Include="res\bin00008.bin" />
+    <None Include="res\bin00009.bin" />
+    <None Include="res\bin00010.bin" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap11.bmp" />
+    <None Include="res\bitmap12.bmp" />
+    <None Include="res\bitmap14.bmp" />
+    <None Include="res\bitmap16.bmp" />
+    <None Include="res\bitmap17.bmp" />
+    <None Include="res\bitmap18.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\bitmap3.bmp" />
+    <None Include="res\bitmap4.bmp" />
+    <None Include="res\bitmap5.bmp" />
+    <None Include="res\BLUEARROWD.bmp" />
+    <None Include="res\BLUEARROWF.bmp" />
+    <None Include="res\BLUEARROWU.BMP" />
+    <None Include="res\bq_web_logo.bmp" />
+    <None Include="res\BTN_BSD.bmp" />
+    <None Include="res\BTN_BSF.bmp" />
+    <None Include="res\BTN_BSU.bmp" />
+    <None Include="res\BTN_CANCELD.bmp" />
+    <None Include="res\BTN_CANCELF.bmp" />
+    <None Include="res\BTN_CANCELU.bmp" />
+    <None Include="res\BTN_EIGHTD.bmp" />
+    <None Include="res\BTN_EIGHTF.bmp" />
+    <None Include="res\BTN_EIGHTU.bmp" />
+    <None Include="res\BTN_FIVED.bmp" />
+    <None Include="res\BTN_FIVEF.bmp" />
+    <None Include="res\BTN_FIVEU.bmp" />
+    <None Include="res\BTN_FOURD.bmp" />
+    <None Include="res\BTN_FOURF.bmp" />
+    <None Include="res\BTN_FOURU.bmp" />
+    <None Include="res\BTN_GOD.bmp" />
+    <None Include="res\BTN_GOF.bmp" />
+    <None Include="res\BTN_GOU.bmp" />
+    <None Include="res\BTN_NINED.bmp" />
+    <None Include="res\BTN_NINEF.bmp" />
+    <None Include="res\BTN_NINEU.bmp" />
+    <None Include="res\BTN_ONED.bmp" />
+    <None Include="res\BTN_ONEF.bmp" />
+    <None Include="res\BTN_ONEU.bmp" />
+    <None Include="res\BTN_SEVEND.bmp" />
+    <None Include="res\BTN_SEVENF.bmp" />
+    <None Include="res\BTN_SEVENU.bmp" />
+    <None Include="res\BTN_SIXD.bmp" />
+    <None Include="res\BTN_SIXF.bmp" />
+    <None Include="res\BTN_SIXU.bmp" />
+    <None Include="res\BTN_THREED.bmp" />
+    <None Include="res\BTN_THREEF.bmp" />
+    <None Include="res\BTN_THREEU.bmp" />
+    <None Include="res\BTN_TWOD.bmp" />
+    <None Include="res\BTN_TWOF.bmp" />
+    <None Include="res\BTN_TWOU.bmp" />
+    <None Include="res\BTN_ZEROD.bmp" />
+    <None Include="res\BTN_ZEROF.bmp" />
+    <None Include="res\BTN_ZEROU.bmp" />
+    <None Include="res\CANCELBUTTOND.bmp" />
+    <None Include="res\CANCELBUTTONF.bmp" />
+    <None Include="res\CANCELBUTTONU.bmp" />
+    <None Include="res\CANCELLING_JOB.bmp" />
+    <None Include="res\CART_WARN_C.bmp" />
+    <None Include="res\CART_WARN_F.bmp" />
+    <None Include="res\CART_WARN_K.bmp" />
+    <None Include="res\CART_WARN_M.bmp" />
+    <None Include="res\CART_WARN_W.bmp" />
+    <None Include="res\CART_WARN_Y.bmp" />
+    <None Include="res\CHECK_BUTTOND.bmp" />
+    <None Include="res\CHECK_BUTTONF.bmp" />
+    <None Include="res\CHECK_BUTTONU.bmp" />
+    <None Include="res\CLEANBUTTOND.bmp" />
+    <None Include="res\CLEANBUTTONF.bmp" />
+    <None Include="res\CLEANBUTTONU.bmp" />
+    <None Include="res\cleaning_in_progress_1.bmp" />
+    <None Include="res\cleaning_in_progress_2.bmp" />
+    <None Include="res\cleaning_in_progress_3.bmp" />
+    <None Include="res\cleaning_in_progress_4.bmp" />
+    <None Include="res\cleaning_in_progress_5.bmp" />
+    <None Include="res\cleaning_in_progress_6.bmp" />
+    <None Include="res\CLEAN_ADVANCEDD.bmp" />
+    <None Include="res\CLEAN_ADVANCEDU.bmp" />
+    <None Include="res\CLEAN_LEVEL_1D.bmp" />
+    <None Include="res\CLEAN_LEVEL_1U.bmp" />
+    <None Include="res\CLEAN_LEVEL_2D.bmp" />
+    <None Include="res\CLEAN_LEVEL_2U.bmp" />
+    <None Include="res\CLEAN_LEVEL_3D.bmp" />
+    <None Include="res\CLEAN_LEVEL_3U.bmp" />
+    <None Include="res\Controller4.ico" />
+    <None Include="res\Controller4.rc2" />
+    <None Include="res\development_team.bmp" />
+    <None Include="res\diagnostics.bmp" />
+    <None Include="res\DN_ARROWD.bmp" />
+    <None Include="res\DN_ARROWU.bmp" />
+    <None Include="res\ESTOPD.bmp" />
+    <None Include="res\ESTOPF.bmp" />
+    <None Include="res\ESTOPU.bmp" />
+    <None Include="res\EXPORTD.bmp" />
+    <None Include="res\EXPORTF.bmp" />
+    <None Include="res\EXPORTU.bmp" />
+    <None Include="res\fatal_error.bmp" />
+    <None Include="res\gif1.bin" />
+    <None Include="res\gif2.bin" />
+    <None Include="res\gif3.bin" />
+    <None Include="res\GOD.bmp" />
+    <None Include="res\GOF.bmp" />
+    <None Include="res\GOU.bmp" />
+    <None Include="res\HEAD_MAINT_POSD.bmp" />
+    <None Include="res\HEAD_MAINT_POSF.bmp" />
+    <None Include="res\HEAD_MAINT_POSU.bmp" />
+    <None Include="res\HOME2D.bmp" />
+    <None Include="res\HOME2U.bmp" />
+    <None Include="res\HOMED.bmp" />
+    <None Include="res\HOMEF.bmp" />
+    <None Include="res\HOMEU.bmp" />
+    <None Include="res\HOME_HEADD.bmp" />
+    <None Include="res\HOME_HEADF.bmp" />
+    <None Include="res\HOME_HEADU.bmp" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\IMPORTD.bmp" />
+    <None Include="res\IMPORTF.bmp" />
+    <None Include="res\IMPORTU.BMP" />
+    <None Include="res\JN_0.tif" />
+    <None Include="res\JN_1.tif" />
+    <None Include="res\JN_2.tif" />
+    <None Include="res\JN_3.tif" />
+    <None Include="res\JN_4.tif" />
+    <None Include="res\JN_5.tif" />
+    <None Include="res\JN_6.tif" />
+    <None Include="res\JN_7.tif" />
+    <None Include="res\JN_8.tif" />
+    <None Include="res\JN_9.tif" />
+    <None Include="res\Jobs.bmp" />
+    <None Include="res\LEFTD.bmp" />
+    <None Include="res\LEFTF.bmp" />
+    <None Include="res\LEFTFd.bmp" />
+    <None Include="res\LEFTU.bmp" />
+    <None Include="res\LEFT_ARROWD.bmp" />
+    <None Include="res\LEFT_ARROWU.bmp" />
+    <None Include="res\levelling_in_progress_1.bmp" />
+    <None Include="res\levelling_in_progress_2.bmp" />
+    <None Include="res\levelling_in_progress_3.bmp" />
+    <None Include="res\levelling_in_progress_4.bmp" />
+    <None Include="res\levelling_in_progress_5.bmp" />
+    <None Include="res\levelling_in_progress_6.bmp" />
+    <None Include="res\levelling_in_progress_7.bmp" />
+    <None Include="res\LEVEL_PLATEND.bmp" />
+    <None Include="res\LEVEL_PLATENF.bmp" />
+    <None Include="res\LEVEL_PLATENU.bmp" />
+    <None Include="res\LOCK_CLOSEDD.bmp" />
+    <None Include="res\LOCK_CLOSEDF.bmp" />
+    <None Include="res\LOCK_CLOSEDU.bmp" />
+    <None Include="res\LOCK_OPEND.bmp" />
+    <None Include="res\LOCK_OPENF.bmp" />
+    <None Include="res\LOCK_OPENU.bmp" />
+    <None Include="res\maintenance.bmp" />
+    <None Include="res\main_background.bmp" />
+    <None Include="res\main_background_p.bmp" />
+    <None Include="res\main_background_power.bmp" />
+    <None Include="res\main_buttons_centerbutton.bmp" />
+    <None Include="res\main_buttons_centerbutton_p.bmp" />
+    <None Include="res\main_buttons_maint.bmp" />
+    <None Include="res\main_buttons_maint_p.bmp" />
+    <None Include="res\main_buttons_settings.bmp" />
+    <None Include="res\main_buttons_settings_p.bmp" />
+    <None Include="res\main_buttons_tools.bmp" />
+    <None Include="res\main_buttons_tools_p.bmp" />
+    <None Include="res\mockup_background.bmp" />
+    <None Include="res\NOZZLE_CHECKD.bmp" />
+    <None Include="res\NOZZLE_CHECKU.bmp" />
+    <None Include="res\NUMERIC_BAKGRND.bmp" />
+    <None Include="res\OBSTRUCTION.bmp" />
+    <None Include="res\OFFBUTTONU.BMP" />
+    <None Include="res\OFFBUTTONU1.bmp" />
+    <None Include="res\OFFBUTTONU2.bmp" />
+    <None Include="res\OFF_MARKER.bmp" />
+    <None Include="res\OFF_MARKER2.bmp" />
+    <None Include="res\OFF_MARKER3.bmp" />
+    <None Include="res\ONBUTTONU.BMP" />
+    <None Include="res\ONBUTTONU1.bmp" />
+    <None Include="res\ONBUTTONU2.bmp" />
+    <None Include="res\ON_MARKER.BMP" />
+    <None Include="res\ON_MARKER2.bmp" />
+    <None Include="res\OPTION1.bmp" />
+    <None Include="res\OPTION1D.bmp" />
+    <None Include="res\OPTION1F.bmp" />
+    <None Include="res\OPTION1U.bmp" />
+    <None Include="res\OPTION2D.bmp" />
+    <None Include="res\OPTION2F.bmp" />
+    <None Include="res\OPTION2U.bmp" />
+    <None Include="res\OPTION3D.bmp" />
+    <None Include="res\OPTION3F.bmp" />
+    <None Include="res\OPTION3U.bmp" />
+    <None Include="res\OPTION4D.bmp" />
+    <None Include="res\OPTION4F.bmp" />
+    <None Include="res\OPTION4U.bmp" />
+    <None Include="res\OPTIONONED.bmp" />
+    <None Include="res\OPTIONONEF.bmp" />
+    <None Include="res\OPTIONONEU.bmp" />
+    <None Include="res\OPTIONTHREED.bmp" />
+    <None Include="res\OPTIONTHREEF.bmp" />
+    <None Include="res\OPTIONTHREEU.bmp" />
+    <None Include="res\OPTIONTWOD.BMP" />
+    <None Include="res\OPTIONTWOF.BMP" />
+    <None Include="res\OPTIONTWOU.BMP" />
+    <None Include="res\PAUSED.BMP" />
+    <None Include="res\PLEASE_WAIT.bmp" />
+    <None Include="res\please_wait_init.bmp" />
+    <None Include="res\POWERD.bmp" />
+    <None Include="res\POWERF.bmp" />
+    <None Include="res\POWERU.bmp" />
+    <None Include="res\PRINTBUTTOND.bmp" />
+    <None Include="res\PRINTBUTTONF.bmp" />
+    <None Include="res\PRINTBUTTONU.bmp" />
+    <None Include="res\PRINTING.BMP" />
+    <None Include="res\PRINTING2.bmp" />
+    <None Include="res\PRINTING3.bmp" />
+    <None Include="res\PRODRUND.bmp" />
+    <None Include="res\PRODRUNU.bmp" />
+    <None Include="res\PRODRUN_MARKER.bmp" />
+    <None Include="res\QUESTIOND.bmp" />
+    <None Include="res\QUESTIONF.bmp" />
+    <None Include="res\QUESTIONU.bmp" />
+    <None Include="res\REPRINTD.bmp" />
+    <None Include="res\REPRINTF.bmp" />
+    <None Include="res\REPRINTU.bmp" />
+    <None Include="res\RIGHTD.bmp" />
+    <None Include="res\RIGHTF.bmp" />
+    <None Include="res\RIGHTU.bmp" />
+    <None Include="res\RIGHT_ARROWD.bmp" />
+    <None Include="res\RIGHT_ARROWU.bmp" />
+    <None Include="res\SCAN_INDICATOR_BLACK.bmp" />
+    <None Include="res\SCAN_INDICATOR_BLUE.bmp" />
+    <None Include="res\SCAN_INDICATOR_GREEN.bmp" />
+    <None Include="res\SCAN_INDICATOR_PINK.bmp" />
+    <None Include="res\SCAN_INDICATOR_PURPLE.bmp" />
+    <None Include="res\SCAN_INDICATOR_RED.bmp" />
+    <None Include="res\SCAN_INDICATOR_WHITE.bmp" />
+    <None Include="res\SCAN_INDICATOR_YELLOW.bmp" />
+    <None Include="res\SCRLDND.bmp" />
+    <None Include="res\SCRLDNF.bmp" />
+    <None Include="res\SCRLDNU.bmp" />
+    <None Include="res\SCRLUPD.bmp" />
+    <None Include="res\SCRLUPF.bmp" />
+    <None Include="res\SCRLUPU.bmp" />
+    <None Include="res\settings_background.bmp" />
+    <None Include="res\SETUP.BMP" />
+    <None Include="res\SIMPLE_OBSTRUCTION.bmp" />
+    <None Include="res\SINGLERUND.bmp" />
+    <None Include="res\SINGLERUNU.bmp" />
+    <None Include="res\SQ_ARROW2_DND.bmp" />
+    <None Include="res\SQ_ARROW2_DNF.bmp" />
+    <None Include="res\SQ_ARROW2_DNU.bmp" />
+    <None Include="res\SQ_ARROW2_UPD.bmp" />
+    <None Include="res\SQ_ARROW2_UPF.bmp" />
+    <None Include="res\SQ_ARROW2_UPU.bmp" />
+    <None Include="res\SQ_ARROW_DND.bmp" />
+    <None Include="res\SQ_ARROW_DNF.bmp" />
+    <None Include="res\SQ_ARROW_DNU.bmp" />
+    <None Include="res\SQ_ARROW_UPD.bmp" />
+    <None Include="res\SQ_ARROW_UPF.bmp" />
+    <None Include="res\SQ_ARROW_UPU.bmp" />
+    <None Include="res\status_initializing.bmp" />
+    <None Include="res\status_ready.bmp" />
+    <None Include="res\STOPD.bmp" />
+    <None Include="res\STOPF.bmp" />
+    <None Include="res\STOPU.bmp" />
+    <None Include="res\sw_dl_background.bmp" />
+    <None Include="res\tiff_ima.bin" />
+    <None Include="res\TRASHCAND.bmp" />
+    <None Include="res\TRASHCANF.bmp" />
+    <None Include="res\TRASHCANU.bmp" />
+    <None Include="res\UP_ARROWD.bmp" />
+    <None Include="res\UP_ARROWU.bmp" />
+    <None Include="res\WARNING_DEMO_MODE.bmp" />
+    <None Include="res\X_BUTTON.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AirPurge.h" />
+    <ClInclude Include="AutoSpitting.h" />
+    <ClInclude Include="CapDrainVerify.h" />
+    <ClInclude Include="CleaningInProgress.h" />
+    <ClInclude Include="CleaningOption3.h" />
+    <ClInclude Include="ConfirmPrint.h" />
+    <ClInclude Include="Controller4.h" />
+    <ClInclude Include="Controller4Dlg1.h" />
+    <ClInclude Include="Controller4Dlg2.h" />
+    <ClInclude Include="Controller4Dlg3.h" />
+    <ClInclude Include="Controller4Dlg4.h" />
+    <ClInclude Include="Controller4Dlg5.h" />
+    <ClInclude Include="Controller4Dlg5A.h" />
+    <ClInclude Include="DebugDiag.h" />
+    <ClInclude Include="DebugDiag2.h" />
+    <ClInclude Include="DebugDiag3.h" />
+    <ClInclude Include="DeleteVerify.h" />
+    <ClInclude Include="DemoMode.h" />
+    <ClInclude Include="DevelopmentTeam.h" />
+    <ClInclude Include="DripWhiteTime.h" />
+    <ClInclude Include="EditableListCtrl.h" />
+    <ClInclude Include="FatalError.h" />
+    <ClInclude Include="INIEditor.h" />
+    <ClInclude Include="InkValveControl.h" />
+    <ClInclude Include="LayerWait.h" />
+    <ClInclude Include="LevelingDialog.h" />
+    <ClInclude Include="ManualPlatenHeights.h" />
+    <ClInclude Include="MyCtrlList.h" />
+    <ClInclude Include="MyIPAddressCtrl.h" />
+    <ClInclude Include="MyScrollButton.h" />
+    <ClInclude Include="NumberEntry.h" />
+    <ClInclude Include="NumericEntry.h" />
+    <ClInclude Include="OKBox.h" />
+    <ClInclude Include="PictureEx.h" />
+    <ClInclude Include="PlatenControl.h" />
+    <ClInclude Include="PlatenLiftCtrl.h" />
+    <ClInclude Include="PleaseWait.h" />
+    <ClInclude Include="PleaseWaitInit.h" />
+    <ClInclude Include="PortalDBG.h" />
+    <ClInclude Include="Printing.h" />
+    <ClInclude Include="ReplaceCap.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SerialSupp.h" />
+    <ClInclude Include="ServoOffsets.h" />
+    <ClInclude Include="SoftwareDL.h" />
+    <ClInclude Include="StartPurge.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestBands.h" />
+    <ClInclude Include="TestPatternSelector.h" />
+    <ClInclude Include="UserPrompt1.h" />
+    <ClInclude Include="UserPrompt2.h" />
+    <ClInclude Include="WaitDialog.h" />
+    <ClInclude Include="WhiteCleaning.h" />
+    <ClInclude Include="YesNoCancel.h" />
+    <ClInclude Include="YLinearization.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AirPurge.cpp" />
+    <ClCompile Include="AlignmentTests.cpp" />
+    <ClCompile Include="AutoSpitting.cpp" />
+    <ClCompile Include="BandDebug.cpp" />
+    <ClCompile Include="CapDrainVerify.cpp" />
+    <ClCompile Include="CleaningInProgress.cpp" />
+    <ClCompile Include="CleaningOption3.cpp" />
+    <ClCompile Include="ConfirmPrint.cpp" />
+    <ClCompile Include="Controller4.cpp" />
+    <ClCompile Include="Controller4Dlg1.cpp" />
+    <ClCompile Include="Controller4Dlg2.cpp" />
+    <ClCompile Include="Controller4Dlg3.cpp" />
+    <ClCompile Include="Controller4Dlg4.cpp" />
+    <ClCompile Include="Controller4Dlg5.cpp" />
+    <ClCompile Include="Controller4Dlg5A.cpp" />
+    <ClCompile Include="CRC.cpp" />
+    <ClCompile Include="DebugDiag.cpp" />
+    <ClCompile Include="DebugDiag2.cpp" />
+    <ClCompile Include="DebugDiag3.cpp" />
+    <ClCompile Include="DeleteVerify.cpp" />
+    <ClCompile Include="DemoMode.cpp" />
+    <ClCompile Include="DevelopmentTeam.cpp" />
+    <ClCompile Include="DripWhiteTime.cpp" />
+    <ClCompile Include="EditableListCtrl.cpp" />
+    <ClCompile Include="FatalError.cpp" />
+    <ClCompile Include="formatter.cpp" />
+    <ClCompile Include="HandleDuplicates.cpp" />
+    <ClCompile Include="HeadFuncs.cpp" />
+    <ClCompile Include="HotFolders.cpp" />
+    <ClCompile Include="INIEditor.cpp" />
+    <ClCompile Include="InkPressureStuff.cpp" />
+    <ClCompile Include="InkValveControl.cpp" />
+    <ClCompile Include="InPlaceEdit.cpp" />
+    <ClCompile Include="job_IO.cpp" />
+    <ClCompile Include="LayerWait.cpp" />
+    <ClCompile Include="LevelingDialog.cpp" />
+    <ClCompile Include="LogSupp.cpp" />
+    <ClCompile Include="ManualPlatenHeights.cpp" />
+    <ClCompile Include="microweave.cpp" />
+    <ClCompile Include="MyCtrlList.cpp" />
+    <ClCompile Include="MyIPAddressCtrl.cpp" />
+    <ClCompile Include="MyScrollButton.cpp" />
+    <ClCompile Include="NetworkDLLinterface.cpp" />
+    <ClCompile Include="NumericEntry.cpp" />
+    <ClCompile Include="OKBox.cpp" />
+    <ClCompile Include="OneBitFuncs.cpp" />
+    <ClCompile Include="parser1.cpp" />
+    <ClCompile Include="PictureEx.cpp" />
+    <ClCompile Include="PlatenControl.cpp" />
+    <ClCompile Include="PlatenLiftCtrl.cpp" />
+    <ClCompile Include="PleaseWait.cpp" />
+    <ClCompile Include="PleaseWaitInit.cpp" />
+    <ClCompile Include="PortalDBG.cpp" />
+    <ClCompile Include="Printing.cpp" />
+    <ClCompile Include="QUEUE_SUPP.cpp" />
+    <ClCompile Include="RegistryStuff.cpp" />
+    <ClCompile Include="ReplaceCap.cpp" />
+    <ClCompile Include="SerialPort.cpp" />
+    <ClCompile Include="SerialSupp.cpp" />
+    <ClCompile Include="ServoOffsets.cpp" />
+    <ClCompile Include="SingleInstance.cpp" />
+    <ClCompile Include="SoftwareDL.cpp" />
+    <ClCompile Include="StartPurge.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TestBands.cpp" />
+    <ClCompile Include="TestPatternSelector.cpp" />
+    <ClCompile Include="transedit.cpp" />
+    <ClCompile Include="UnlockAdvanced.cpp" />
+    <ClCompile Include="USB_SUPP.cpp" />
+    <ClCompile Include="UserPrompt1.cpp" />
+    <ClCompile Include="UserPrompt2.cpp" />
+    <ClCompile Include="WaitDialog.cpp" />
+    <ClCompile Include="WhiteCleaning.cpp" />
+    <ClCompile Include="YesNoCancel.cpp" />
+    <ClCompile Include="YLinearization.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Controller4.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Ltclr_u.lib" />
+    <Library Include="Ltdis_u.lib" />
+    <Library Include="Ltdlgclr_u.lib" />
+    <Library Include="Ltdlgfile_u.lib" />
+    <Library Include="Ltdlgimgdoc_u.lib" />
+    <Library Include="Ltdlgimg_u.lib" />
+    <Library Include="Ltdlgkrn_u.lib" />
+    <Library Include="Ltfil_u.lib" />
+    <Library Include="Ltimgclr_u.lib" />
+    <Library Include="Ltimgcor_u.lib" />
+    <Library Include="Ltimgefx_u.lib" />
+    <Library Include="Ltimgutl_u.lib" />
+    <Library Include="Ltkrn_u.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CONTROLLER4_AUX\CONTROLLER4_AUX.vcxproj">
+      <Project>{a8ffe0a9-37f1-4733-9edb-0cff98656cb1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="GENESIS_NWRK\GENESIS_NTWRK\GENESIS_NTWRK.vcxproj">
+      <Project>{f778db22-e2fc-4fa0-86b4-33f5056b523f}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Controller4.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

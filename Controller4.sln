@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controller4", "Controller4.vcxproj", "{27B1DC20-7835-45A3-9691-B3CF5FB73E7E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GENESIS_NTWRK", "GENESIS_NWRK\GENESIS_NTWRK\GENESIS_NTWRK.vcxproj", "{F778DB22-E2FC-4FA0-86B4-33F5056B523F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CONTROLLER4_AUX", "CONTROLLER4_AUX\CONTROLLER4_AUX.vcxproj", "{A8FFE0A9-37F1-4733-9EDB-0CFF98656CB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27B1DC20-7835-45A3-9691-B3CF5FB73E7E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27B1DC20-7835-45A3-9691-B3CF5FB73E7E}.Debug|Win32.Build.0 = Debug|Win32
+		{27B1DC20-7835-45A3-9691-B3CF5FB73E7E}.Release|Win32.ActiveCfg = Release|Win32
+		{27B1DC20-7835-45A3-9691-B3CF5FB73E7E}.Release|Win32.Build.0 = Release|Win32
+		{F778DB22-E2FC-4FA0-86B4-33F5056B523F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F778DB22-E2FC-4FA0-86B4-33F5056B523F}.Debug|Win32.Build.0 = Debug|Win32
+		{F778DB22-E2FC-4FA0-86B4-33F5056B523F}.Release|Win32.ActiveCfg = Release|Win32
+		{F778DB22-E2FC-4FA0-86B4-33F5056B523F}.Release|Win32.Build.0 = Release|Win32
+		{A8FFE0A9-37F1-4733-9EDB-0CFF98656CB1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A8FFE0A9-37F1-4733-9EDB-0CFF98656CB1}.Debug|Win32.Build.0 = Debug|Win32
+		{A8FFE0A9-37F1-4733-9EDB-0CFF98656CB1}.Release|Win32.ActiveCfg = Release|Win32
+		{A8FFE0A9-37F1-4733-9EDB-0CFF98656CB1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

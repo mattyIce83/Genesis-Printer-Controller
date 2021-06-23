@@ -1,0 +1,1301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Controller4.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Controller4.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HOMED.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HOMEF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HOMEU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LEFTD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LEFTFd.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LEFTU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LEFTF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RIGHTD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RIGHTF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RIGHTU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\QUESTIOND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\QUESTIONF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\QUESTIONU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bq_web_logo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTION1U.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTION1D.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTION1F.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTION2U.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTION2D.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTION2F.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTION3D.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTION3F.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTION3U.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTION4D.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTION4U.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\status_initializing.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SETUP.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTION1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTIONONED.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTIONONEF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTIONONEU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTIONTWOD.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTIONTWOF.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTIONTWOU.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTIONTHREED.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTIONTHREEF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTIONTHREEU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\maintenance.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Jobs.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\diagnostics.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BIGFROG_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\status_ready.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GOU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GOD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GOF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\STOPU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\STOPD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\STOPF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PRINTING.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PAUSED.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PRINTING2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PRINTING3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_ONEU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_ONEF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_ONED.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_TWOU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_TWOD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_TWOF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_THREEU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_THREED.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_THREEF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_FOURU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_FOURD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_FOURF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_FIVEU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_FIVED.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_FIVEF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_SIXU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_SIXD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_SIXF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_SEVENU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_SEVEND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_SEVENF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_EIGHTU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_EIGHTD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_EIGHTF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_NINEU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_NINED.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_NINEF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_ZEROU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_ZEROD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_ZEROF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_BSU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_BSD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_BSF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_GOU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_GOD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_GOF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_CANCELU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_CANCELD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BTN_CANCELF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCRLUPU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCRLUPD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCRLUPF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCRLDNU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCRLDND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCRLDNF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\background_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OPTION4F.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\IMPORTU.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\IMPORTF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\IMPORTD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\REPRINTU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\REPRINTF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\REPRINTD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\EXPORTU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\EXPORTF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\EXPORTD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TRASHCANU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TRASHCANF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TRASHCAND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LOCK_CLOSEDU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LOCK_CLOSEDF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LOCK_CLOSEDD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\POWERU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\POWERF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\POWERD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LOCK_OPENU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LOCK_OPENF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LOCK_OPEND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\NUMERIC_BAKGRND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\settings_background.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SQ_ARROW_DNU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SQ_ARROW_DNF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SQ_ARROW_DND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SQ_ARROW_UPU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SQ_ARROW_UPF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SQ_ARROW_UPD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BLUEARROWU.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BLUEARROWF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BLUEARROWD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ONBUTTONU.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OFFBUTTONU.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SQ_ARROW2_UPU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SQ_ARROW2_UPF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SQ_ARROW2_DNU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SQ_ARROW2_DNF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SQ_ARROW2_DND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SQ_ARROW2_UPD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ONBUTTONU1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ONBUTTONU2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OFFBUTTONU1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OFFBUTTONU2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\background_jobs.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\background_tools.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OFF_MARKER.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ON_MARKER.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\background_printing.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ESTOPU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ESTOPF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ESTOPD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PRINTBUTTONU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PRINTBUTTONF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PRINTBUTTOND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CANCELBUTTONU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CANCELBUTTONF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CANCELBUTTOND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CLEANBUTTONU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CLEANBUTTONF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CLEANBUTTOND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\X_BUTTON.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CHECK_BUTTONU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CHECK_BUTTONF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CHECK_BUTTOND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HOME_HEADU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HOME_HEADF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HOME_HEADD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HEAD_MAINT_POSU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HEAD_MAINT_POSF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HEAD_MAINT_POSD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LEVEL_PLATENU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap12.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LEVEL_PLATENF.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LEVEL_PLATEND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sw_dl_background.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ON_MARKER2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OFF_MARKER2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tiff_ima.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bin00001.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bin00002.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bin00003.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bin00004.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bin00005.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bin00006.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bin00007.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bin00008.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bin00009.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mockup_background.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_background.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_buttons_settings.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_buttons_maint.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_buttons_tools.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_buttons_centerbutton.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_background_power.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HOME2U.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HOME2D.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\development_team.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cleaning_in_progress_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cleaning_in_progress_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cleaning_in_progress_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cleaning_in_progress_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cleaning_in_progress_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cleaning_in_progress_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\WARNING_DEMO_MODE.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CLEAN_LEVEL_1D.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CLEAN_LEVEL_1U.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CLEAN_LEVEL_2U.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CLEAN_LEVEL_2D.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CLEAN_LEVEL_3U.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CLEAN_LEVEL_3D.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\NOZZLE_CHECKU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\NOZZLE_CHECKD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LEFT_ARROWU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LEFT_ARROWD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RIGHT_ARROWU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RIGHT_ARROWD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OFF_MARKER3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\JN_0.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\JN_1.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bin00010.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\JN_2.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\JN_3.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\JN_4.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\JN_5.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\JN_6.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\JN_7.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\JN_8.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\JN_9.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CLEAN_ADVANCEDU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CLEAN_ADVANCEDD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_background_p.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_buttons_centerbutton_p.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_buttons_maint_p.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_buttons_settings_p.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main_buttons_tools_p.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\background_tools_dualcmyk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OBSTRUCTION.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CANCELLING_JOB.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\levelling_in_progress_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\levelling_in_progress_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\levelling_in_progress_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\levelling_in_progress_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\levelling_in_progress_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap14.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\levelling_in_progress_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fatal_error.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCAN_INDICATOR_GREEN.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCAN_INDICATOR_YELLOW.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCAN_INDICATOR_RED.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\levelling_in_progress_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\please_wait_init.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PLEASE_WAIT.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCAN_INDICATOR_BLACK.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCAN_INDICATOR_WHITE.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCAN_INDICATOR_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCAN_INDICATOR_PURPLE.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SCAN_INDICATOR_PINK.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gif1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gif2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gif3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap17.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CART_WARN_C.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CART_WARN_M.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CART_WARN_Y.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CART_WARN_K.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CART_WARN_W.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CART_WARN_F.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DN_ARROWU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DN_ARROWD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap18.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\UP_ARROWD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\UP_ARROWU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PRODRUNU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PRODRUND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SINGLERUNU.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SINGLERUND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PRODRUN_MARKER.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SIMPLE_OBSTRUCTION.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controller4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller4Dlg2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller4Dlg3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller4Dlg4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller4Dlg5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InkValveControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Printing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialSupp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OKBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDiag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmPrint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftwareDL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDiag2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDiag3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPatternSelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YLinearization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServoOffsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller4Dlg1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCtrlList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteVerify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopmentTeam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CleaningInProgress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyScrollButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerWait.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyIPAddressCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller4Dlg5A.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CleaningOption3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalDBG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelingDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FatalError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPrompt1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PleaseWaitInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatenLiftCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PleaseWait.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoSpitting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatenControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualPlatenHeights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YesNoCancel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INIEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditableListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteCleaning.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DripWhiteTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AirPurge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StartPurge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplaceCap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CapDrainVerify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPrompt2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Controller4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller4Dlg2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller4Dlg3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller4Dlg4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller4Dlg5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="formatter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USB_SUPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QUEUE_SUPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parser1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="job_IO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadFuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="microweave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InkValveControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Printing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialSupp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OKBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDiag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HotFolders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfirmPrint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftwareDL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDiag2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDiag3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignmentTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPatternSelector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="YLinearization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServoOffsets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller4Dlg1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCtrlList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteVerify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DevelopmentTeam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CleaningInProgress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyScrollButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BandDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerWait.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyIPAddressCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller4Dlg5A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleDuplicates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnlockAdvanced.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CleaningOption3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalDBG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogSupp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelingDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FatalError.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPrompt1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PleaseWaitInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatenLiftCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PleaseWait.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoSpitting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatenControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InkPressureStuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkDLLinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ManualPlatenHeights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="YesNoCancel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="INIEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditableListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InPlaceEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryStuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OneBitFuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteCleaning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DripWhiteTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AirPurge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartPurge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplaceCap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CapDrainVerify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPrompt2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Controller4.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Ltclr_u.lib" />
+    <Library Include="Ltdis_u.lib" />
+    <Library Include="Ltdlgclr_u.lib" />
+    <Library Include="Ltdlgfile_u.lib" />
+    <Library Include="Ltdlgimg_u.lib" />
+    <Library Include="Ltdlgimgdoc_u.lib" />
+    <Library Include="Ltdlgkrn_u.lib" />
+    <Library Include="Ltfil_u.lib" />
+    <Library Include="Ltimgclr_u.lib" />
+    <Library Include="Ltimgcor_u.lib" />
+    <Library Include="Ltimgefx_u.lib" />
+    <Library Include="Ltimgutl_u.lib" />
+    <Library Include="Ltkrn_u.lib" />
+  </ItemGroup>
+</Project>
